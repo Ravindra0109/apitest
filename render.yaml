@@ -8,3 +8,5 @@ services:
     envVars:
       - key: PORT
         value: 3000
+      - key: GOOGLE_CREDENTIALS
+        sync: false
